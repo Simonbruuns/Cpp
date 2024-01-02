@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-
-int main()  {
-    cout << "hello world";
-    return 1;
-}
+class player(){
+private:
+int health;
+int armor;
+string name;
+};
